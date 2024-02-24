@@ -1,0 +1,276 @@
+body{
+    background:linear-gradient(#CFD8DC, #90A4AE, #607D8B);
+    
+
+}
+
+header{
+    width: 100%;
+    height: 80px;
+}
+
+header img{
+    width: 120px;
+    height: 48px;
+    padding: 30px;
+    margin-left: 60px;
+}
+
+main{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    height: 100%;
+}
+.left-encriptador{
+    width: 60%;
+    margin-left: 30px;
+}
+
+.encriptador-texto{
+    width: 60%;
+    height: 70%;
+    font-size: 25px;
+    cursor: pointer;
+    color: #052051;
+    opacity: 0.5;
+    padding: 10px;
+    border-radius: 5%;
+    border: 0;
+    outline: 0;
+    margin: auto;
+    resize: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background:transparent;
+    
+}
+.contenedor-advertencia img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 25px 5px 20px 235px;
+}
+#advertencia{
+    font-size: 14px;
+    clear: right;
+    margin: 30px 20px;
+    font-style: italic;
+    color:#052051;    
+}
+
+.contenedor-botones{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-encriptar{
+    width: 200px;
+    height: 30px;
+    margin: 0px 30px;
+    border-radius: 20px;
+    border: 0px solid;
+    cursor: pointer;
+    background: #356ea9;
+    color: #ced4da;
+}
+.btn-encriptar:hover{
+    border: 3px solid #052051;
+    font-size: 15px;
+    font-weight: bold;
+    color: #052051;
+}
+
+.btn-desencriptar{
+    width: 200px;
+    height: 30px;
+    margin: 0px 30px;
+    border-radius: 20px;
+    border: 0px solid;
+    cursor: pointer;
+    background:#ced4da;
+    color:#356ea9;
+}
+.btn-desencriptar:hover{
+    border: 3px solid #356ea9;
+    font-size: 15px;
+    font-weight: bold;
+    color: #052051;
+}
+.right-tarjeta{
+    width: 30%;
+    margin-right: 80px;
+    box-shadow: -10px 10px 30px 15px #adb5bd;
+    border-radius: 30px;
+}
+
+.contenedor-muneca{
+    width: 100%;
+    height: 60%;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.evaluar{
+    width: 380px;
+    height: 350px;
+    margin: 15px 45px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    color:#052051;
+    background: transparent;
+    border-radius: 25px;
+    position: absolute;
+    resize:none;
+    border:none;
+}
+
+.evaluar:focus{
+    outline: none;
+}
+
+.contenedor-subtitulo{
+    width: 100%;
+    height: 10%;
+    padding-top: 35px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+    color: #052051;
+}
+
+.contenedor-parrafo{
+    width: 100%;
+    height: 10%;
+    padding-top: 15%;
+    text-align: center;
+    font-style: italic;
+    color: #052051;
+}
+
+
+
+.btn-copiar{
+    width: 200px;
+    height: 30px;
+    margin: 5px 35px;
+    position: absolute;
+    right: 165px;
+    bottom: 110px;
+    border-radius: 20px;
+    border: 0px solid;
+    cursor: pointer;
+    background: #356ea9;
+    color: #ced4da;
+    visibility: hidden;
+}
+.btn-copiar:hover{
+    border: 3px solid #052051;
+    font-size: 15px;
+    font-weight: bold;
+    color: #052051;
+   
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+   
+}
+
+.copyright{
+    font-size: 18px;
+    font-style: italic;
+    margin: 10px;
+    opacity: 0.5;
+    color: #7B241C;
+}
+
+@media(max-width:1250px){
+
+
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 750px;
+    }
+
+    .left-encriptador{
+        margin: 10px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 120%;
+    }
+
+    .encriptador-texto{
+        width: 120;
+        height:100px;
+        display: block;
+        align-items:center;
+    }
+
+    .contenedor-advertencia img{
+        display: flex;
+        align-items: center;
+        position:absolute;
+        right: 350px;
+    }
+
+    #advertencia{
+        display: flex;
+        align-items: center;
+        position:absolute;
+        left:60px;
+    
+    }
+
+    .btn-encriptar{
+        position: relative;
+        margin:30px 20px  ;
+        width: 120px;
+    }
+
+    .btn-desencriptar{
+        position: relative;
+        width: 120px;
+    }
+
+ 
+    .right-tarjeta{
+       display: flex;
+       flex-direction:column;
+       width: 80%;
+       height: 150%;
+       margin: 0 ;
+    }
+
+    .contenedor-subtitulo{
+        position: absolute;
+        top: 690px;
+        right: 0px;
+    }
+
+    .contenedor-parrafo{
+        position: relative;
+        top:60px ;
+
+    }
+
+    .btn-copiar{
+        position: absolute;
+        left:75px ;
+    }
+
+
+}
+
+

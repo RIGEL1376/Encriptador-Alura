@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <title>ENCRIPTADOR</title>
+</head>
+
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo Alura">
+    </header>
+
+    <main>
+        <section class="left-encriptador">        
+            <textarea class="encriptador-texto" placeholder="Escribe tu texto aqui"></textarea>
+
+            <div class="contenedor-advertencia">
+                <img src="images/advertencia.png" alt="imagen-advertencia">
+            </div>
+
+            <div> 
+                <p id="advertencia">Solo letras minusculas y sin acentos</p>
+            </div>
+            
+            <div class="contenedor-botones">
+                <input type="button" value="Encriptar" class="btn-encriptar">
+                <input type="button" value="Desencriptar" class="btn-desencriptar">
+            </div>
+        </section>
+
+        
+        <section class="right-tarjeta">
+
+            <div>
+                <textarea type="mensaje" class="evaluar" readonly></textarea>
+           </div>
+
+            <div class="contenido-tarjeta">
+
+                <div class="contenedor-muneca">
+                    <img src="images/muneca.png" alt="muneca">
+                </div>
+
+                <div class="contenedor-subtitulo">
+                    <h2>Ningun mensaje fue encontrado</h2>
+                </div>
+
+                <div class="contenedor-parrafo">
+                      <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+
+            </div>
+
+             <div class="contenedor-copiar">
+                <input type="button" value="Copiar" class="btn-copiar">
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">copyright &copyRIGEL-2024</copyRIGEL-2024></p>
+    </footer>
+
+   <script src="script.js"></script> 
+
+</body>
+</html>
